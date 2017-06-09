@@ -25,6 +25,7 @@ run_program("/tmp/uninstall.sh");
 ui_print("*                                    *");
 ui_print("*            Cleaning up...          *");
 delete("/tmp/uninstall.sh");
+delete_recursive("/data/quasar-atmox");
 ui_print("*                                    *");
 ui_print("*         Uninstall Complete!        *");
 run_program("/sbin/busybox", "umount", "/system");
