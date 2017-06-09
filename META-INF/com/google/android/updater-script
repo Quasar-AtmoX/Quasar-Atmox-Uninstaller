@@ -1,3 +1,5 @@
+run_program("/sbin/busybox", "mount", "/system");
+file_getprop("/system/build.prop", "ro.quasar_atmox.developer") == "nitesh9" || abort("Quasar AtmoX not detected. Aborting uninstallation...!");
 show_progress(1.000000, 10);
 ui_print("======================================");
 ui_print("*             Q U A S A R            *");
@@ -12,7 +14,6 @@ ui_print("*                                    *");
 ui_print("======================================");
 ui_print("*                                    *");
 ui_print("*         Preparing system           *");
-run_program("/sbin/busybox", "mount", "/system");
 run_program("/sbin/busybox", "mount", "/data");
 ui_print("*                                    *");
 ui_print("*    Removing Quasar Atmox files     *");
