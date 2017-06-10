@@ -2,11 +2,10 @@
 #
 # www.osbusters.net
 #
-# This script should be flashed after ROM installation.
-# It will check for large apps in system and move it to data.
+# Quasar AtmoX™ Uninstaller
 #
-# This will neither delete any app nor will it break its functionality
-# This will increase free space in system partition
+# It will remove all the sound mod files
+# And will restore the original system files
 #
 # AUTHOR: nitesh9 (Nitesh Prasad)
 #ui_print "##################################################### "
