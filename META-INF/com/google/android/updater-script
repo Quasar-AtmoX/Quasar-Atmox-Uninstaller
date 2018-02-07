@@ -1,5 +1,6 @@
 run_program("/sbin/busybox", "mount", "/system");
 file_getprop("/system/build.prop", "ro.quasar_atmox.developer") == "nitesh9" || abort("Quasar AtmoX not detected. Aborting uninstallation...!");
+file_getprop("/system/build.prop", "ro.quasar_atmox.version") == "4.0" || abort("Incompatible version of Quasar AtmoX detected. This uninstaller works only for v4.0. Aborting uninstallation...!");
 show_progress(1.000000, 10);
 ui_print("======================================");
 ui_print("*             Q U A S A R            *");
@@ -7,7 +8,7 @@ ui_print("*    A T M O X  A U D I O  M O D     *");
 ui_print("*    !! U N I N S T A L L E R !!     *");
 ui_print("======================================");
 ui_print("*                                    *");
-ui_print("*             VERSION 3.0            *");
+ui_print("*             VERSION 4.0            *");
 ui_print("*                                    *");
 ui_print("*     BY nitesh9 / NITESH PRASAD     *");
 ui_print("*                                    *");
