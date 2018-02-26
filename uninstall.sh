@@ -141,6 +141,7 @@ cp -rf "/data/quasar-atmox/backup/app/GoogleLyricsPlugin" "/system/app/GoogleLyr
 cp -rf "/data/quasar-atmox/backup/app/HeadphoneSelection" "/system/app/HeadphoneSelection"
 cp -rf "/data/quasar-atmox/backup/app/MaxxAudio" "/system/app/MaxxAudio"
 cp -rf "/data/quasar-atmox/backup/app/MaxxService" "/system/app/MaxxService"
+cp -rf "/data/quasar-atmox/backup/app/MusicFX" "/system/app/MusicFX"
 cp -rf "/data/quasar-atmox/backup/app/SemcMetadataCleanup" "/system/app/SemcMetadataCleanup"
 cp -rf "/data/quasar-atmox/backup/app/WikipediaPlugin" "/system/app/WikipediaPlugin"
 cp -rf "/data/quasar-atmox/backup/app/YouTubeKaraokePlugin" "/system/app/YouTubeKaraokePlugin"
@@ -231,6 +232,7 @@ cp -f "/data/quasar-atmox/backup/lib/libwebrtc_audio_preprocessing.so" "/system/
 # In system/priv-app folder
 cp -rf "/data/quasar-atmox/backup/priv-app/As" "/system/priv-app/As"
 cp -rf "/data/quasar-atmox/backup/priv-app/AsUI" "/system/priv-app/AsUI"
+cp -rf "/data/quasar-atmox/backup/priv-app/MusicFX" "/system/priv-app/MusicFX"
 cp -rf "/data/quasar-atmox/backup/priv-app/SemcMusic" "/system/priv-app/SemcMusic"
 cp -rf "/data/quasar-atmox/backup/priv-app/SomcPodcast" "/system/priv-app/SomcPodcast"
 cp -rf "/data/quasar-atmox/backup/priv-app/SoundEnhancement" "/system/priv-app/SoundEnhancement"
